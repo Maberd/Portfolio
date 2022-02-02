@@ -1,0 +1,52 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+p{
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1vh;
+}
+
+header  ul{
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0vw;
+}
+
+header li{
+  margin: 1vw;
+  list-style: none;
+  font-weight: bold;
+}
+
+header li a:hover {
+  font-weight: normal;
+}
+
+.pre {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer .gratitude {
+  text-align:center;
+  font-weight: bold;
+}
